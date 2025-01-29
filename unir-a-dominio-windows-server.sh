@@ -4,8 +4,10 @@ echo "¿Quieres preparar el equipo para unirlo al dominio? (S/N)"
 read respuesta
 
 if [ "$respuesta" = "S" ]; then
+    clear
     echo "Preparando"
     sleep 2
+    clear
     echo "Preparando."
     sleep 2
     clear
